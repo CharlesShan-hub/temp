@@ -91,19 +91,19 @@
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.4-message-backlog-vs.-message-expiration.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.4-tiered-storage.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/summary.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.1-getting-started-with-pulsar.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar/3.2.1-creating-a-tenant,-namespace,-and-topic.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar/3.2.2-java-admin-api.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients/3.3.1-the-pulsar-java-client.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients/3.3.2-the-pulsar-python-client.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients/3.3.3-the-pulsar-go-client.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration/3.4.1-persistent-topic-metrics.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration/3.4.2-message-inspection.md
-- [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/summary.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.1-getting-started-with-pulsar.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar/3.2.1-creating-a-tenant,-namespace,-and-topic.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar/3.2.2-java-admin-api.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients/3.3.1-the-pulsar-java-client.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients/3.3.2-the-pulsar-python-client.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.3-pulsar-clients/3.3.3-the-pulsar-go-client.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration/3.4.1-persistent-topic-metrics.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration/3.4.2-message-inspection.md
+- [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/summary.md
 - [ ] ./apache-pulsar-in-action/4-pulsar-functions.md
 - [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing.md
 - [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.1-traditional-batching.md

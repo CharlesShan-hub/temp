@@ -159,22 +159,22 @@
 - [x] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization/6.3.2-an-example-scenario.md
 - [x] ./apache-pulsar-in-action/6-pulsar-security/6.4-message-encryption.md
 - [x] ./apache-pulsar-in-action/6-pulsar-security/summary.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication/7.1.1-microservice-apis.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication/7.1.2-the-need-for-a-schema-registry.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.1-architecture.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.2-schema-versioning.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.3-schema-compatibility.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.4-schema-compatibility-check-strategies.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.1-modelling-the-food-order-event-in-avro.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.2-producing-food-order-events.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.3-consuming-the-food-order-events.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.4-complete-example.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/7.4-evolving-the-schema.md
-- [ ] ./apache-pulsar-in-action/7-schema-registry/summary.md
+- [x] ./apache-pulsar-in-action/7-schema-registry.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication/7.1.1-microservice-apis.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication/7.1.2-the-need-for-a-schema-registry.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.1-architecture.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.2-schema-versioning.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.3-schema-compatibility.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.2-the-pulsar-schema-registry/7.2.4-schema-compatibility-check-strategies.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.1-modelling-the-food-order-event-in-avro.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.2-producing-food-order-events.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.3-consuming-the-food-order-events.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.4-complete-example.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/7.4-evolving-the-schema.md
+- [x] ./apache-pulsar-in-action/7-schema-registry/summary.md
 - [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns.md
 - [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines.md
 - [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines/8.1.1-procedural-programming.md

@@ -104,28 +104,28 @@
 - [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration/3.4.1-persistent-topic-metrics.md
 - [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.4-advanced-administration/3.4.2-message-inspection.md
 - [x] ./apache-pulsar-in-action/3-interacting-with-pulsar/summary.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.1-traditional-batching.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.2-micro-batching.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.3-stream-native-processing.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.2-what-is-pulsar-functions_.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.2-what-is-pulsar-functions_/4.2.1.-programming-model.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions/4.3.1-language-native-functions.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions/4.3.2-the-pulsar-sdk.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions/4.3.3-stateful-functions.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.4-testing-pulsar-functions.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.4-testing-pulsar-functions/4.4.1-unit-testing.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.4-testing-pulsar-functions/4.4.2-integration-testing.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.1-generating-a-deployment-artifact.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.2-function-configuration.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.3-function-deployment.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.4-the-function-deployment-life-cycle.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.5-deployment-modes.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.6-pulsar-function-data-flow.md
-- [ ] ./apache-pulsar-in-action/4-pulsar-functions/summary.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.1-traditional-batching.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.2-micro-batching.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.1-stream-processing/4.1.3-stream-native-processing.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.2-what-is-pulsar-functions_.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.2-what-is-pulsar-functions_/4.2.1.-programming-model.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions/4.3.1-language-native-functions.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions/4.3.2-the-pulsar-sdk.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.3-developing-pulsar-functions/4.3.3-stateful-functions.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.4-testing-pulsar-functions.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.4-testing-pulsar-functions/4.4.1-unit-testing.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.4-testing-pulsar-functions/4.4.2-integration-testing.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.1-generating-a-deployment-artifact.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.2-function-configuration.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.3-function-deployment.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.4-the-function-deployment-life-cycle.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.5-deployment-modes.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.6-pulsar-function-data-flow.md
+- [x] ./apache-pulsar-in-action/4-pulsar-functions/summary.md
 - [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors.md
 - [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_.md
 - [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.1-sink-connectors.md

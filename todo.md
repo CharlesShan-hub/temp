@@ -213,14 +213,14 @@
 - [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart.md
 - [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart/a.3.1-administering-pulsar-on-kubernetes.md
 - [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart/a.3.2-configuring-clients.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.1-synchronous-geo-replication.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.2-asynchronous-geo-replication.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.2-asynchronous-geo-replication/b.2.1-configuring-asynchronous-geo-replication.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.1-multi-active-geo-replication.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.2-active-standby-geo-replication.md
-- [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.3-aggregation-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.1-synchronous-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.2-asynchronous-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.2-asynchronous-geo-replication/b.2.1-configuring-asynchronous-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.1-multi-active-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.2-active-standby-geo-replication.md
+- [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.3-aggregation-geo-replication.md
 - [ ] ./apache-pulsar-in-action/contents.md
 - [ ] ./apache-pulsar-in-action/copyright.md
 - [ ] ./apache-pulsar-in-action/dedication.md

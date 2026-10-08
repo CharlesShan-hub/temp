@@ -202,7 +202,7 @@
 - [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.7-credential-refresh-pattern.md
 - [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.3-multiple-layers-of-resiliency.md
 - [x] ./apache-pulsar-in-action/9-resiliency-patterns/summary.md
-- [ ] ./apache-pulsar-in-action/apache-pulsar-in-action.md
+- [x] ./apache-pulsar-in-action/apache-pulsar-in-action.md
 - [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes.md
 - [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster.md
 - [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster/a.1.1-install-prerequisites.md
@@ -221,24 +221,24 @@
 - [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.1-multi-active-geo-replication.md
 - [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.2-active-standby-geo-replication.md
 - [x] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.3-asynchronous-geo-replication-patterns/b.3.3-aggregation-geo-replication.md
-- [ ] ./apache-pulsar-in-action/contents.md
-- [ ] ./apache-pulsar-in-action/copyright.md
-- [ ] ./apache-pulsar-in-action/dedication.md
-- [ ] ./apache-pulsar-in-action/front-matter.md
-- [ ] ./apache-pulsar-in-action/front-matter/about-the-author.md
-- [ ] ./apache-pulsar-in-action/front-matter/about-the-code.md
-- [ ] ./apache-pulsar-in-action/front-matter/about-the-cover-illustration.md
-- [ ] ./apache-pulsar-in-action/front-matter/about-this-book.md
-- [ ] ./apache-pulsar-in-action/front-matter/acknowledgments.md
-- [ ] ./apache-pulsar-in-action/front-matter/foreword.md
-- [ ] ./apache-pulsar-in-action/front-matter/how-this-book-is-organized_-a-roadmap.md
-- [ ] ./apache-pulsar-in-action/front-matter/livebook-discussion-forum.md
-- [ ] ./apache-pulsar-in-action/front-matter/other-online-resources.md
-- [ ] ./apache-pulsar-in-action/front-matter/preface.md
-- [ ] ./apache-pulsar-in-action/front-matter/who-should-read-this-book.md
+- [x] ./apache-pulsar-in-action/contents.md
+- [x] ./apache-pulsar-in-action/copyright.md
+- [x] ./apache-pulsar-in-action/dedication.md
+- [x] ./apache-pulsar-in-action/front-matter.md
+- [x] ./apache-pulsar-in-action/front-matter/about-the-author.md
+- [x] ./apache-pulsar-in-action/front-matter/about-the-code.md
+- [x] ./apache-pulsar-in-action/front-matter/about-the-cover-illustration.md
+- [x] ./apache-pulsar-in-action/front-matter/about-this-book.md
+- [x] ./apache-pulsar-in-action/front-matter/acknowledgments.md
+- [x] ./apache-pulsar-in-action/front-matter/foreword.md
+- [x] ./apache-pulsar-in-action/front-matter/how-this-book-is-organized_-a-roadmap.md
+- [x] ./apache-pulsar-in-action/front-matter/livebook-discussion-forum.md
+- [x] ./apache-pulsar-in-action/front-matter/other-online-resources.md
+- [x] ./apache-pulsar-in-action/front-matter/preface.md
+- [x] ./apache-pulsar-in-action/front-matter/who-should-read-this-book.md
 - [ ] ./apache-pulsar-in-action/index.md
-- [ ] ./apache-pulsar-in-action/inside-back-cover.md
-- [ ] ./apache-pulsar-in-action/inside-front-cover.md
-- [ ] ./apache-pulsar-in-action/part-1-getting-started-with-apache-pulsar.md
-- [ ] ./apache-pulsar-in-action/part-2-apache-pulsar-development-essentials.md
-- [ ] ./apache-pulsar-in-action/part-3-hands-on-application-development-with-apache-pulsar.md
+- [x] ./apache-pulsar-in-action/inside-back-cover.md
+- [x] ./apache-pulsar-in-action/inside-front-cover.md
+- [x] ./apache-pulsar-in-action/part-1-getting-started-with-apache-pulsar.md
+- [x] ./apache-pulsar-in-action/part-2-apache-pulsar-development-essentials.md
+- [x] ./apache-pulsar-in-action/part-3-hands-on-application-development-with-apache-pulsar.md

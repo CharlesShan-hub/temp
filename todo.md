@@ -188,20 +188,20 @@
 - [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.2-content-enricher-pattern.md
 - [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.3-content-filter-pattern.md
 - [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/summary.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency/9.1.1-adverse-events.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency/9.1.2-fault-detection.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.1-retry-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.2-circuit-breaker-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.3-rate-limiter-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.4-time-limiter-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.5-cache-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.6-fallback-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.7-credential-refresh-pattern.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.3-multiple-layers-of-resiliency.md
-- [ ] ./apache-pulsar-in-action/9-resiliency-patterns/summary.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency/9.1.1-adverse-events.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency/9.1.2-fault-detection.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.1-retry-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.2-circuit-breaker-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.3-rate-limiter-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.4-time-limiter-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.5-cache-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.6-fallback-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.2-resiliency-design-patterns/9.2.7-credential-refresh-pattern.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.3-multiple-layers-of-resiliency.md
+- [x] ./apache-pulsar-in-action/9-resiliency-patterns/summary.md
 - [ ] ./apache-pulsar-in-action/apache-pulsar-in-action.md
 - [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes.md
 - [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster.md

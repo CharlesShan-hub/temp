@@ -55,24 +55,24 @@
 - [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets/11.5.1-neural-net-training.md
 - [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets/11.5.2-neural-net-deployment-in-java.md
 - [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/summary.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.1-the-perception-and-reaction-layer.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.2-the-transportation-layer.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.3-the-data-processing-layer.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.2-a-pulsar-based-processing-layer.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.3-edge-analytics.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.3-edge-analytics/12.3.1-telemetric-data.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.3-edge-analytics/12.3.2-univariate-and-multivariate.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis/12.4.1-noise-reduction.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis/12.4.2-statistical-analysis.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis/12.4.3-approximation.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis/12.5.1-creating-a-bidirectional-messaging-mesh.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis/12.5.2-multivariate-dataset-construction.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/12.6-beyond-the-book.md
-- [ ] ./apache-pulsar-in-action/12-edge-analytics/summary.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.1-the-perception-and-reaction-layer.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.2-the-transportation-layer.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.3-the-data-processing-layer.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.2-a-pulsar-based-processing-layer.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.3-edge-analytics.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.3-edge-analytics/12.3.1-telemetric-data.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.3-edge-analytics/12.3.2-univariate-and-multivariate.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis/12.4.1-noise-reduction.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis/12.4.2-statistical-analysis.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.4-univariate-analysis/12.4.3-approximation.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis/12.5.1-creating-a-bidirectional-messaging-mesh.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis/12.5.2-multivariate-dataset-construction.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/12.6-beyond-the-book.md
+- [x] ./apache-pulsar-in-action/12-edge-analytics/summary.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.1-pulsar’s-layered-architecture.md

@@ -13,11 +13,11 @@
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.1-generic-messaging-systems.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.2-message-oriented-middleware.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.3-enterprise-service-bus.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.4-distributed-messaging-systems.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.1-multilayered-architecture.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.2-message-consumption.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.3-data-durability.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.4-distributed-messaging-systems.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.1-multilayered-architecture.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.2-message-consumption.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.3-data-durability.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.4-message-acknowledgment.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.5-message-retention.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_.md

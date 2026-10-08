@@ -126,29 +126,29 @@
 - [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.5-deployment-modes.md
 - [x] ./apache-pulsar-in-action/4-pulsar-functions/4.5-deploying-pulsar-functions/4.5.6-pulsar-function-data-flow.md
 - [x] ./apache-pulsar-in-action/4-pulsar-functions/summary.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.1-sink-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.2-source-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.3-pushsource-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.2-developing-pulsar-io-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.2-developing-pulsar-io-connectors/5.2.1-developing-a-sink-connector.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.2-developing-pulsar-io-connectors/5.2.2-developing-a-pushsource-connector.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors/5.3.1-unit-testing.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors/5.3.2-integration-testing.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors/5.3.3-packaging-pulsar-io-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.4-deploying-pulsar-io-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.4-deploying-pulsar-io-connectors/5.4.1-creating-and-deleting-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.4-deploying-pulsar-io-connectors/5.4.2-debugging-deployed-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors/5.5.1-launching-the-mongodb-cluster.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors/5.5.2-link-the-pulsar-and-mongodb-containers.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors/5.5.3-configure-and-create-the-mongodb-sink.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors/5.6.1-listing-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors/5.6.2-monitoring-connectors.md
-- [ ] ./apache-pulsar-in-action/5-pulsar-io-connectors/summary.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.1-sink-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.2-source-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.1-what-are-pulsar-io-connectors_/5.1.3-pushsource-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.2-developing-pulsar-io-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.2-developing-pulsar-io-connectors/5.2.1-developing-a-sink-connector.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.2-developing-pulsar-io-connectors/5.2.2-developing-a-pushsource-connector.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors/5.3.1-unit-testing.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors/5.3.2-integration-testing.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.3-testing-pulsar-io-connectors/5.3.3-packaging-pulsar-io-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.4-deploying-pulsar-io-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.4-deploying-pulsar-io-connectors/5.4.1-creating-and-deleting-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.4-deploying-pulsar-io-connectors/5.4.2-debugging-deployed-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors/5.5.1-launching-the-mongodb-cluster.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors/5.5.2-link-the-pulsar-and-mongodb-containers.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.5-pulsar’s-built-in-connectors/5.5.3-configure-and-create-the-mongodb-sink.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors/5.6.1-listing-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors/5.6.2-monitoring-connectors.md
+- [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/summary.md
 - [ ] ./apache-pulsar-in-action/6-pulsar-security.md
 - [ ] ./apache-pulsar-in-action/6-pulsar-security/6.1-transport-encryption.md
 - [ ] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication.md

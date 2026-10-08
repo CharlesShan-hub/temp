@@ -203,16 +203,16 @@
 - [x] ./apache-pulsar-in-action/9-resiliency-patterns/9.3-multiple-layers-of-resiliency.md
 - [x] ./apache-pulsar-in-action/9-resiliency-patterns/summary.md
 - [ ] ./apache-pulsar-in-action/apache-pulsar-in-action.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster/a.1.1-install-prerequisites.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster/a.1.2-minikube.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.2-the-pulsar-helm-chart.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.2-the-pulsar-helm-chart/a.2.1-what-is-helm_.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.2-the-pulsar-helm-chart/a.2.2-the-pulsar-helm-chart.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart/a.3.1-administering-pulsar-on-kubernetes.md
-- [ ] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart/a.3.2-configuring-clients.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster/a.1.1-install-prerequisites.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.1-create-a-kubernetes-cluster/a.1.2-minikube.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.2-the-pulsar-helm-chart.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.2-the-pulsar-helm-chart/a.2.1-what-is-helm_.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.2-the-pulsar-helm-chart/a.2.2-the-pulsar-helm-chart.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart/a.3.1-administering-pulsar-on-kubernetes.md
+- [x] ./apache-pulsar-in-action/appendix-a.-running-pulsar-on-kubernetes/a.3-using-the-pulsar-helm-chart/a.3.2-configuring-clients.md
 - [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication.md
 - [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.1-synchronous-geo-replication.md
 - [ ] ./apache-pulsar-in-action/appendix-b.-geo-replication/b.2-asynchronous-geo-replication.md

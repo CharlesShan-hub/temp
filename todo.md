@@ -39,22 +39,22 @@
 - [x] ./apache-pulsar-in-action/10-data-access/10.2-data-access-use-cases/10.2.1-device-validation.md
 - [x] ./apache-pulsar-in-action/10-data-access/10.2-data-access-use-cases/10.2.2-driver-location-data.md
 - [x] ./apache-pulsar-in-action/10-data-access/summary.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.1-deploying-ml-models.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.1-deploying-ml-models/11.1.1-batch-processing.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.1-deploying-ml-models/11.1.2-near-real-time.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.2-near-real-time-model-deployment.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.3-feature-vectors.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.3-feature-vectors/11.3.1-feature-stores.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.3-feature-vectors/11.3.2-feature-calculation.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation/11.4.1-ml-model-export.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation/11.4.2-feature-vector-mapping.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation/11.4.3-model-deployment.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets/11.5.1-neural-net-training.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets/11.5.2-neural-net-deployment-in-java.md
-- [ ] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/summary.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.1-deploying-ml-models.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.1-deploying-ml-models/11.1.1-batch-processing.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.1-deploying-ml-models/11.1.2-near-real-time.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.2-near-real-time-model-deployment.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.3-feature-vectors.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.3-feature-vectors/11.3.1-feature-stores.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.3-feature-vectors/11.3.2-feature-calculation.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation/11.4.1-ml-model-export.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation/11.4.2-feature-vector-mapping.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.4-delivery-time-estimation/11.4.3-model-deployment.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets/11.5.1-neural-net-training.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/11.5-neural-nets/11.5.2-neural-net-deployment-in-java.md
+- [x] ./apache-pulsar-in-action/11-machine-learning-in-pulsar/summary.md
 - [ ] ./apache-pulsar-in-action/12-edge-analytics.md
 - [ ] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture.md
 - [ ] ./apache-pulsar-in-action/12-edge-analytics/12.1-iiot-architecture/12.1.1-the-perception-and-reaction-layer.md

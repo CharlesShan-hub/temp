@@ -175,19 +175,19 @@
 - [x] ./apache-pulsar-in-action/7-schema-registry/7.3-using-the-schema-registry/7.3.4-complete-example.md
 - [x] ./apache-pulsar-in-action/7-schema-registry/7.4-evolving-the-schema.md
 - [x] ./apache-pulsar-in-action/7-schema-registry/summary.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines/8.1.1-procedural-programming.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines/8.1.2-dataflow-programming.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns/8.2.1-splitter-pattern.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns/8.2.2-dynamic-router-pattern.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns/8.2.3-content-based-router-pattern.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.1-message-translator-pattern.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.2-content-enricher-pattern.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.3-content-filter-pattern.md
-- [ ] ./apache-pulsar-in-action/8-pulsar-functions-patterns/summary.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines/8.1.1-procedural-programming.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.1-data-pipelines/8.1.2-dataflow-programming.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns/8.2.1-splitter-pattern.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns/8.2.2-dynamic-router-pattern.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.2-message-routing-patterns/8.2.3-content-based-router-pattern.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.1-message-translator-pattern.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.2-content-enricher-pattern.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/8.3-message-transformation-patterns/8.3.3-content-filter-pattern.md
+- [x] ./apache-pulsar-in-action/8-pulsar-functions-patterns/summary.md
 - [ ] ./apache-pulsar-in-action/9-resiliency-patterns.md
 - [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency.md
 - [ ] ./apache-pulsar-in-action/9-resiliency-patterns/9.1-pulsar-functions-resiliency/9.1.1-adverse-events.md

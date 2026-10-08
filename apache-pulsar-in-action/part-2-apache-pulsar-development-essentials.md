@@ -1,0 +1,9 @@
+# Part 2 Apache Pulsar development essentials
+
+Part 2 focuses on Pulsar’s built-in serverless computing framework, known as Pulsar Functions, and how it can be used to provide stream processing capabilities without requiring an additional computational framework, such as Apache Flink or Kafka Streams. This type of serverless stream processing is also referred to as *stream-native processing* and has a broad range of applications—from real-time ETL and event-driven programming to microservices development and real-time machine learning.
+
+After covering the basics of the Pulsar Functions framework, I spend a good amount of time focusing on how to properly secure your Pulsar cluster to ensure that all your data is kept safely away from prying eyes. Lastly, I wrap up the section with an introduction to Pulsar’s schema registry, which helps you retain information about the structure of the messages being held inside your Pulsar topics in a central location.
+
+Chapter 4 introduces Pulsar’s stream-native computing framework, called Pulsar Functions, provides some background on its design and configuration, and shows you how to develop, test, and deploy the individual functions. Chapter 5 introduces Pulsar’s connector framework, which is designed to move between Apache Pulsar and external storage systems, such as relational databases, key-value stores, or blob storage. It teaches you how to develop a connector in a step-by-step fashion.
+
+In chapter 6, I provide step-by-step instructions on how to secure your Pulsar cluster to ensure that your data is safe while it is in transit and at rest. Finally, chapter 7 covers Pulsar’s built-in schema registry, why it is necessary, and how it can help simplify microservice development. We also cover the schema evolution process and how to update the schemas used inside your Pulsar functions.

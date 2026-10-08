@@ -1,0 +1,323 @@
+import os
+import re
+import subprocess
+from ebooklib import epub
+from bs4 import BeautifulSoup
+import shutil
+
+try:
+    from pypinyin import lazy_pinyin
+except ImportError:
+    lazy_pinyin = None
+
+_pinyin_warned = False
+
+def clean_filename(filename):
+    """清理非法字符，中文转拼音，空格转连字符，统一转为小写"""
+    global _pinyin_warned
+    if lazy_pinyin:
+        filename = '-'.join(part.strip() for part in lazy_pinyin(filename))
+    elif re.search(r'[\u4e00-\u9fff]', filename) and not _pinyin_warned:
+        _pinyin_warned = True
+        print("警告: 未安装 pypinyin，中文标题将保留原样 (pip install pypinyin)")
+    # 替换 Windows 不允许的字符
+    filename = re.sub(r'[\\/*?:"<>|]', '_', filename).strip()
+    # 空白字符转换为连字符，并合并连续连字符
+    filename = re.sub(r'\s+', '-', filename)
+    filename = re.sub(r'-{2,}', '-', filename)
+    return filename.lower()
+
+def extract_images(book):
+    """从 epub 中获取所有图片项并返回名称到内容的映射"""
+    image_data = {}
+    img_exts = ('.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.bmp')
+    
+    for item in book.get_items():
+        is_image_type = item.get_type() == 9
+        name = item.get_name()
+        has_img_ext = name.lower().endswith(img_exts)
+        
+        if is_image_type or has_img_ext:
+            content = item.get_content()
+            if content:
+                base_name = os.path.basename(name)
+                image_data[base_name] = content
+                image_data[name] = content
+    return image_data
+
+def html_to_md(html_soup, output_path, image_data_map):
+    """清理 HTML 并将图片保存到本地 assets 文件夹，同时识别并缩放图标"""
+    
+    # 用于存放图标的 HTML 代码，以便后续替换回 Markdown
+    icon_placeholders = {}
+    
+    # 彻底清理所有不必要的标签属性，防止 Pandoc 产生 artifacts (如 {cfi="..."})
+    img_tags = html_soup.find_all('img')
+    for i, tag in enumerate(img_tags):
+        src = tag.get('src', '')
+        src_name = os.path.basename(src)
+        
+        # 识别图标：判断图片是否与文本同行（行内图片）
+        is_icon = False
+        
+        # 查找包含图片的块级容器
+        container = tag.find_parent(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'li', 'td', 'div'])
+        if container:
+            # 获取容器内的纯文本内容（不含标签）
+            container_text = container.get_text(strip=True)
+            if container_text:
+                is_icon = True
+        
+        # 处理图片路径本地化
+        final_src = f"assets/{src_name}"
+        
+        if is_icon:
+            # 如果是图标，创建一个占位符 (不使用下划线，避免被 Pandoc 转义)
+            placeholder = f"ICONPLACEHOLDER{i}"
+            # 构造带样式的 HTML <img> 标签
+            icon_html = f'<img src="{final_src}" style="height: 1.2em; vertical-align: middle; display: inline-block;">'
+            icon_placeholders[placeholder] = icon_html
+            tag.replace_with(placeholder)
+        else:
+            # 普通图片，仅保留 src
+            tag.attrs = {'src': final_src}
+
+    # 清理其他标签属性
+    for tag in html_soup.find_all(True):
+        if tag.name != 'img': # img 已经被处理或替换了
+            tag.attrs = {}
+            
+    # 如果是 span 或 div，尽量剥离
+    for tag in html_soup.find_all(['span', 'div']):
+        if not tag.find('img'):
+            tag.unwrap()
+
+    # 处理图片物理文件保存
+    current_dir = os.path.dirname(output_path)
+    local_assets_dir = os.path.join(current_dir, 'assets')
+    
+    # 重新查找现存的 img 标签（非图标）以及从 placeholder 记录中找图片
+    all_src_names = [os.path.basename(img.get('src', '')) for img in html_soup.find_all('img')]
+    for html_code in icon_placeholders.values():
+        if 'src="assets/' in html_code:
+            name = html_code.split('src="assets/')[1].split('"')[0]
+            all_src_names.append(name)
+
+    if all_src_names:
+        if not os.path.exists(local_assets_dir):
+            os.makedirs(local_assets_dir)
+        for name in set(all_src_names):
+            if name in image_data_map:
+                target_img_path = os.path.join(local_assets_dir, name)
+                if not os.path.exists(target_img_path):
+                    with open(target_img_path, 'wb') as f:
+                        f.write(image_data_map[name])
+    
+    temp_html = output_path + '.temp.html'
+    with open(temp_html, 'w', encoding='utf-8') as f:
+        f.write(str(html_soup))
+    
+    try:
+        # 转换为 markdown
+        subprocess.run([
+            'pandoc', 
+            temp_html, 
+            '-f', 'html', 
+            '-t', 'gfm', 
+            '--wrap=none',
+            '-o', output_path
+        ], check=True, capture_output=True)
+        
+        # 读取生成的 Markdown 并将占位符替换回 HTML
+        if icon_placeholders:
+            with open(output_path, 'r', encoding='utf-8') as f:
+                md_content = f.read()
+            
+            for placeholder, icon_html in icon_placeholders.items():
+                md_content = md_content.replace(placeholder, icon_html)
+                
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(md_content)
+                
+    except subprocess.CalledProcessError:
+        print(f"Pandoc 转换失败: {output_path}")
+    finally:
+        if os.path.exists(temp_html):
+            os.remove(temp_html)
+
+def get_content_segment(soup, start_anchor, end_anchor):
+    """提取 HTML 中两个锚点之间的内容"""
+    if not soup.find('body'):
+        return soup
+        
+    new_soup = BeautifulSoup("<html><body></body></html>", 'html.parser')
+    body = new_soup.body
+    
+    # 定位起始和结束节点
+    start_node = None
+    if start_anchor:
+        start_node = soup.find(id=start_anchor) or soup.find(attrs={"name": start_anchor})
+    
+    end_node = None
+    if end_anchor:
+        end_node = soup.find(id=end_anchor) or soup.find(attrs={"name": end_anchor})
+
+    found_start = False if start_node else True
+    
+    # 递归查找并收集节点
+    def collect_nodes(current_soup_node):
+        nonlocal found_start
+        for child in current_soup_node.children:
+            if not found_start:
+                if child == start_node or (hasattr(child, 'descendants') and start_node in child.descendants):
+                    found_start = True
+                    # 如果起始点就在这个节点，我们开始收集
+                    if child == start_node:
+                        body.append(child.__copy__())
+                    else:
+                        # 如果起始点在内部，需要递归进去找
+                        # 简化处理：直接包含整个父节点（通常是标题）
+                        body.append(child.__copy__())
+                continue
+            
+            if end_node and (child == end_node or (hasattr(child, 'descendants') and end_node in child.descendants)):
+                # 遇到结束节点，停止
+                return False
+            
+            body.append(child.__copy__())
+        return True
+
+    collect_nodes(soup.find('body'))
+    return new_soup
+
+def get_entry_info(entry):
+    if isinstance(entry, tuple):
+        return entry[0].title, entry[0].href, entry[1]
+    return entry.title, entry.href, []
+
+def build_toc_lines(entries, depth, prefix):
+    """递归构建总目录的 Markdown 行"""
+    lines = []
+    for entry in entries:
+        title, _, sub_entries = get_entry_info(entry)
+        clean_title = clean_filename(title)
+        rel_path = '/'.join(prefix + [clean_title + '.md'])
+        lines.append('  ' * depth + f"- [{title}](<{rel_path}>)")
+        lines.extend(build_toc_lines(sub_entries, depth + 1, prefix + [clean_title]))
+    return lines
+
+def write_root_readme(book, toc, output_dir):
+    """在输出根目录生成总目录 README.md"""
+    root_title = getattr(book, 'title', None) or '目录'
+    lines = [f"# {root_title}", ''] + build_toc_lines(toc, 0, [])
+    with open(os.path.join(output_dir, 'README.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+
+def process_toc(book, toc, parent_dir, image_data_map):
+    """递归处理 TOC 并拆分章节"""
+    # 预先平坦化 TOC 以便查找“下一个”锚点
+    flat_toc = []
+    def flatten(entries):
+        for entry in entries:
+            if isinstance(entry, tuple):
+                flat_toc.append(entry[0])
+                flatten(entry[1])
+            else:
+                flat_toc.append(entry)
+    flatten(toc)
+
+    # 重新实现递归逻辑，同时利用 flat_toc 寻找边界
+    def process_recursive(entries, current_dir):
+        for i, entry in enumerate(entries):
+            title, href, sub_entries = get_entry_info(entry)
+            clean_title = clean_filename(title)
+            
+            if '#' in href:
+                filename, anchor = href.split('#', 1)
+            else:
+                filename, anchor = href, None
+            
+            item = book.get_item_with_href(filename)
+            if not item: continue
+            
+            content = item.get_content().decode('utf-8', errors='ignore')
+            soup = BeautifulSoup(content, 'html.parser')
+            
+            # 确定当前段落的终点
+            next_anchor = None
+            if sub_entries:
+                _, sub_href, _ = get_entry_info(sub_entries[0])
+                if '#' in sub_href:
+                    sub_file, sub_anchor = sub_href.split('#', 1)
+                    if sub_file == filename:
+                        next_anchor = sub_anchor
+            else:
+                # 寻找 flat_toc 中的下一个
+                try:
+                    curr_idx = -1
+                    target_entry = entry if not isinstance(entry, tuple) else entry[0]
+                    for idx, e in enumerate(flat_toc):
+                        if e == target_entry:
+                            curr_idx = idx
+                            break
+                    
+                    if curr_idx != -1 and curr_idx + 1 < len(flat_toc):
+                        next_entry = flat_toc[curr_idx + 1]
+                        next_href = next_entry.href
+                        if '#' in next_href:
+                            next_file, next_anchor_val = next_href.split('#', 1)
+                            if next_file == filename:
+                                next_anchor = next_anchor_val
+                except Exception:
+                    pass
+            
+            segment_soup = get_content_segment(soup, anchor, next_anchor)
+            
+            target_md_path = os.path.join(current_dir, f"{clean_title}.md")
+            if os.path.exists(target_md_path):
+                print(f"警告: 检测到重名章节，后写入的会覆盖先写入的: {target_md_path} (章节标题: {title})")
+            html_to_md(segment_soup, target_md_path, image_data_map)
+            
+            if sub_entries:
+                sub_links = []
+                for se in sub_entries:
+                    st_title, _, _ = get_entry_info(se)
+                    st_clean = clean_filename(st_title)
+                    sub_links.append(f"- [{st_title}](<{clean_title}/{st_clean}.md>)")
+                with open(target_md_path, 'a', encoding='utf-8') as f:
+                    f.write('\n\n## 子目录\n\n' + '\n'.join(sub_links) + '\n')
+                
+                sub_dir = os.path.join(current_dir, clean_title)
+                if not os.path.exists(sub_dir):
+                    os.makedirs(sub_dir)
+                process_recursive(sub_entries, sub_dir)
+
+    process_recursive(toc, parent_dir)
+
+def process_epub(epub_path):
+    print(f"正在处理: {epub_path}")
+    try:
+        book = epub.read_epub(epub_path)
+    except Exception as e:
+        print(f"读取失败 {epub_path}: {e}")
+        return
+
+    base_name = os.path.splitext(os.path.basename(epub_path))[0]
+    output_dir = os.path.join(os.getcwd(), clean_filename(base_name))
+    
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+    os.makedirs(output_dir)
+    
+    # 获取所有图片数据
+    image_data_map = extract_images(book)
+    
+    # 处理目录
+    process_toc(book, book.toc, output_dir, image_data_map)
+    write_root_readme(book, book.toc, output_dir)
+    print(f"完成: {epub_path}")
+
+if __name__ == "__main__":
+    for file in os.listdir('.'):
+        if file.endswith('.epub'):
+            process_epub(file)

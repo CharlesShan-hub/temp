@@ -1,0 +1,4 @@
+EbookLib==0.20
+beautifulsoup4==4.14.3
+lxml==6.0.2
+pypinyin==0.53.0

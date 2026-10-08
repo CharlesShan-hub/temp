@@ -28,11 +28,11 @@
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.5-geo-replication-and-active-failover.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.1-unified-messaging-systems.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.2-microservices-platforms.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.3-connected-cars.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.4-fraud-detection.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/additional-resources.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/summary.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.2-microservices-platforms.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.3-connected-cars.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.4-fraud-detection.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/additional-resources.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/summary.md
 - [ ] ./apache-pulsar-in-action/10-data-access.md
 - [ ] ./apache-pulsar-in-action/10-data-access/10.1-data-sources.md
 - [ ] ./apache-pulsar-in-action/10-data-access/10.2-data-access-use-cases.md

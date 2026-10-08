@@ -18,11 +18,11 @@
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.1-multilayered-architecture.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.2-message-consumption.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.3-data-durability.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.4-message-acknowledgment.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.5-message-retention.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.1-guaranteed-message-delivery.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.2-infinite-scalability.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.4-message-acknowledgment.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.5-message-retention.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.1-guaranteed-message-delivery.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.2-infinite-scalability.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.3-resilient-to-failure.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.4-support-for-millions-of-topics.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.5-geo-replication-and-active-failover.md

@@ -3,11 +3,11 @@
 - 任务: 将下列每个 md 文件由英文翻译为中文
 - 规则: 每翻译完一个文件, 就把该行行首的 '- [ ]' 改成 '- [x]'
 
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.1-enterprise-messaging-systems.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.1-enterprise-messaging-systems/1.1.1-key-capabilities.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns/1.2.1-publish-subscribe-messaging.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.1-enterprise-messaging-systems.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.1-enterprise-messaging-systems/1.1.1-key-capabilities.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns/1.2.1-publish-subscribe-messaging.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns/1.2.2-message-queuing.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.1-generic-messaging-systems.md

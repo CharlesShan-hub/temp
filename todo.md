@@ -88,9 +88,9 @@
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.1-data-retention.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.2-backlog-quotas.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.3-message-expiration.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.4-message-backlog-vs.-message-expiration.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.4-tiered-storage.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/summary.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.4-message-backlog-vs.-message-expiration.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.4-tiered-storage.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/summary.md
 - [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar.md
 - [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.1-getting-started-with-pulsar.md
 - [ ] ./apache-pulsar-in-action/3-interacting-with-pulsar/3.2-administering-pulsar.md

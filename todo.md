@@ -23,11 +23,11 @@
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.1-guaranteed-message-delivery.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.2-infinite-scalability.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.3-resilient-to-failure.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.4-support-for-millions-of-topics.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.5-geo-replication-and-active-failover.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.1-unified-messaging-systems.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.3-resilient-to-failure.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.4-support-for-millions-of-topics.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.5-why-do-i-need-pulsar_/1.5.5-geo-replication-and-active-failover.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.1-unified-messaging-systems.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.2-microservices-platforms.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.3-connected-cars.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.6-real-world-use-cases/1.6.4-fraud-detection.md

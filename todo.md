@@ -78,11 +78,11 @@
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.1-pulsar’s-layered-architecture.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.2-stateless-serving-layer.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.3-stream-storage-layer.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.4-metadata-storage.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.1-tenants,-namespaces,-and-topics.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.2-addressing-topics-in-pulsar.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.3-producers,-consumers,-and-subscriptions.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.4-metadata-storage.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.1-tenants,-namespaces,-and-topics.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.2-addressing-topics-in-pulsar.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.3-producers,-consumers,-and-subscriptions.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.4-subscription-types.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.1-data-retention.md

@@ -149,16 +149,16 @@
 - [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors/5.6.1-listing-connectors.md
 - [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/5.6-administering-pulsar-io-connectors/5.6.2-monitoring-connectors.md
 - [x] ./apache-pulsar-in-action/5-pulsar-io-connectors/summary.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.1-transport-encryption.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication/6.2.1-tls-authentication.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication/6.2.2-json-web-token-authentication.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization/6.3.1-roles.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization/6.3.2-an-example-scenario.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/6.4-message-encryption.md
-- [ ] ./apache-pulsar-in-action/6-pulsar-security/summary.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.1-transport-encryption.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication/6.2.1-tls-authentication.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.2-authentication/6.2.2-json-web-token-authentication.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization/6.3.1-roles.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.3-authorization/6.3.2-an-example-scenario.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/6.4-message-encryption.md
+- [x] ./apache-pulsar-in-action/6-pulsar-security/summary.md
 - [ ] ./apache-pulsar-in-action/7-schema-registry.md
 - [ ] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication.md
 - [ ] ./apache-pulsar-in-action/7-schema-registry/7.1-microservice-communication/7.1.1-microservice-apis.md

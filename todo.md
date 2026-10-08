@@ -73,11 +73,11 @@
 - [ ] ./apache-pulsar-in-action/12-edge-analytics/12.5-multivariate-analysis/12.5.2-multivariate-dataset-construction.md
 - [ ] ./apache-pulsar-in-action/12-edge-analytics/12.6-beyond-the-book.md
 - [ ] ./apache-pulsar-in-action/12-edge-analytics/summary.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.1-pulsar’s-layered-architecture.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.2-stateless-serving-layer.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.3-stream-storage-layer.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.1-pulsar’s-layered-architecture.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.2-stateless-serving-layer.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.3-stream-storage-layer.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.1-pulsar’s-physical-architecture/2.1.4-metadata-storage.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.1-tenants,-namespaces,-and-topics.md

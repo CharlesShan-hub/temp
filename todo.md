@@ -8,11 +8,11 @@
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.1-enterprise-messaging-systems/1.1.1-key-capabilities.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns.md
 - [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns/1.2.1-publish-subscribe-messaging.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns/1.2.2-message-queuing.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.1-generic-messaging-systems.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.2-message-oriented-middleware.md
-- [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.3-enterprise-service-bus.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.2-message-consumption-patterns/1.2.2-message-queuing.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.1-generic-messaging-systems.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.2-message-oriented-middleware.md
+- [x] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.3-enterprise-service-bus.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.3-the-evolution-of-messaging-systems/1.3.4-distributed-messaging-systems.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka.md
 - [ ] ./apache-pulsar-in-action/1-introduction-to-apache-pulsar/1.4-comparison-to-apache-kafka/1.4.1-multilayered-architecture.md

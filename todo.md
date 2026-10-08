@@ -83,11 +83,11 @@
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.1-tenants,-namespaces,-and-topics.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.2-addressing-topics-in-pulsar.md
 - [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.3-producers,-consumers,-and-subscriptions.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.4-subscription-types.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.1-data-retention.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.2-backlog-quotas.md
-- [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.3-message-expiration.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.2-pulsar’s-logical-architecture/2.2.4-subscription-types.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.1-data-retention.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.2-backlog-quotas.md
+- [x] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.3-message-expiration.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.3-message-retention-and-expiration/2.3.4-message-backlog-vs.-message-expiration.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/2.4-tiered-storage.md
 - [ ] ./apache-pulsar-in-action/2-pulsar-concepts-and-architecture/summary.md
